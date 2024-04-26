@@ -1,0 +1,51 @@
+body {
+    
+    background-color: black;
+    color: lime;
+    font-family: 'Lucida Sans Typewriter';
+}
+
+.navbar ul, .navbar li {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #00ff00;
+    width: 100%;
+    
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    font-family: 'Lucida Sans Typewriter';
+}
+
+.navbar li:hover a {
+    background-color: teal;
+    background: white;
+    color: olivedrab;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: olivedrab;
+}
+
+
+#sign-in{
+    text-align: right;
+}
